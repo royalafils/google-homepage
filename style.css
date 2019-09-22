@@ -1,0 +1,39 @@
+.pictureMain {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+    width: 50%;
+    display: block;
+}
+
+.textField {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 50%;
+    display: block;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;  
+    display: block;
+
+}
+
+li {
+    display: inline;
+}
+
+  a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.textParagraph {
+    color: #5f6368;
+}
