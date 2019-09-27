@@ -1,7 +1,27 @@
-#centre {
-    text-align: center;
+.center {
+  border: 1px solid red;
+  width:100%
 }
 
+.pictureMain {
+  display: table;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.searchField {
+  display: table;
+  margin: 0 auto;
+  width: 30%;
+  border: 1px solid black;
+}
+
+.searchField input {
+  width: 100%;
+}
+
+
+/*
 .pictureMain {
     display: inline-block;
     margin-left: auto;
@@ -14,7 +34,7 @@
     display: inline-block;
     margin: 0 auto;
     width: auto;
-    
+
 }
 
 .textField {
@@ -67,4 +87,4 @@ li a {
 
 .textParagraph {
     color: #5f6368;
-}
+} */
