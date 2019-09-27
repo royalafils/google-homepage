@@ -1,16 +1,16 @@
 .pictureMain {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 13%;
-    width: 40%;
-    display: block;
+    margin: 0px;
+}
+
+.pictureMain a {
+    text-align: center;
 }
 
 .textField {
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    width: 30%;
+    width: 40%;
     display: block;
     border-radius: 5px;
 }
