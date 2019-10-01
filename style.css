@@ -1,4 +1,15 @@
+.body {
+  font-family: arial,sans-serif;  
+}
+
+.center {
+  border: 0px solid red;
+  width:100%;
+  padding-top: 200px;
+}
+
 .pictureMain {
+<<<<<<< HEAD
     margin: 0px;
 }
 
@@ -13,47 +24,123 @@
     width: 40%;
     display: block;
     border-radius: 5px;
+=======
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border: 0px solid black;
 }
 
-.searchInput {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.searchField {
+  display: block;
+  margin: 0 auto;
+  width: 520px;
+  border: 1px solid black;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(185, 185, 185, 0.54);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.searchField input {
+  width: 100%;
 }
 
-li {
-    float: left;
+/* Buttons */
+
+#button1 {
+  width: 150px;
+  height: 40px;
 }
 
-li a:hover {
-    text-decoration: underline;
+#button2 {
+  width: 150px;
+  height: 40px;
 }
 
-li a {
-    display: block;
-    color: #5f6368;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+/* Espace entre les deux boutons */
+
+.divider {
+  margin-left: 20px;
+  display:inline-block;
+}
+
+/* Première navbar*/
+
+.navBarTop ul {
+  border: 0.2px solid rgb(165, 165, 165);
+  margin-left: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(185, 185, 185, 0.54);
+  position: fixed;
+  bottom: 47px;
+  width: 100%;
+>>>>>>> f83b5184aa41354a4b920b904c4413d776263359
+}
+
+.navBarTop li {
+  float: left;
+}
+
+.navBarTop li a:hover {
+  text-decoration: underline;
+}
+
+.navBarTop li a {
+  display: block;
+  color: #5f6368;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Seconde navbar */
+.navBar ul {
+  border: 0.2px solid rgb(165, 165, 165);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(185, 185, 185, 0.54);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navBar li {
+  float: left;
+}
+
+.navBar li a:hover {
+  text-decoration: underline;
+}
+
+.navBar li a {
+  display: block;
+  color: #5f6368;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
   a:hover, a:visited, a:link, a:active
 {
-    text-decoration: none;
-    color: #5f6368;
+  text-decoration: none;
+  color: #5f6368;
 }
 
 .textParagraph {
-    color: #5f6368;
+  color: #5f6368;
+  text-align: center;
+} 
+
+.champ {
+  display: inline-block;
+}
+
+.navBar {
+  font-size: 13px;
+}
+
+.navBarTop {
+  font-size: 13px;
 }
